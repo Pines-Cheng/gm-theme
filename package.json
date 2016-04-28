@@ -4,7 +4,8 @@
   "description": "custom bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d docs"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,8 @@
   },
   "homepage": "https://github.com/Pines-Cheng/gm-theme#readme",
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
-    "gulp-connect": "^4.0.0",
+    "gulp-connect": "^4.0.0"
   }
 }
