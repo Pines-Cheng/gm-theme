@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d gh-pages/_site"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,11 @@
     "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^4.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "touch": "^1.0.0",
+    "underscore": "^1.8.3",
+    "when": "^3.7.7"
   }
 }
