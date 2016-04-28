@@ -1,0 +1,26 @@
+{
+  "name": "gm-theme",
+  "version": "1.0.0",
+  "description": "custom bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pines-Cheng/gm-theme.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Pines Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pines-Cheng/gm-theme/issues"
+  },
+  "homepage": "https://github.com/Pines-Cheng/gm-theme#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.0.0",
+  }
+}
