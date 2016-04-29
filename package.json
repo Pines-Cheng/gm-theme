@@ -23,7 +23,8 @@
   "devDependencies": {
     "gh-pages": "^0.11.0",
     "gulp": "^3.9.1",
-    "gulp-connect": "^4.0.0"
+    "gulp-connect": "^4.0.0",
+    "gulp-less": "^3.0.5"
   },
   "dependencies": {
     "cheerio": "^0.20.0",
