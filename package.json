@@ -4,8 +4,9 @@
   "description": "custom bootstrap",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d gh-pages/_site"
+    "dev":"jekyll serve -s ./gh-pages -d ./gh_pages/_site",
+    "build":"jekyll build -s ./gh-pages -d ./_site",
+    "deploy": "gh-pages -d ./_site"
   },
   "repository": {
     "type": "git",
