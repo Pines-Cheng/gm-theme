@@ -4,7 +4,7 @@
   "description": "custom bootstrap",
   "main": "index.js",
   "scripts": {
-    "dev": "jekyll serve -s ./gh-pages -d ./gh_pages/_site",
+    "dev": "jekyll serve -s ./gh-pages -d ./_site",
     "watch":"gulp watch",
     "build": "jekyll build -s ./gh-pages -d ./_site",
     "deploy": "gh-pages -d ./_site"
